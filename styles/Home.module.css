@@ -114,3 +114,292 @@
     flex-direction: column;
   }
 }
+.floatercontainer {
+  animation-name: floating;
+  z-index: 10;
+  /* width: 100vw; */
+  /* position: relative; */
+  /* height: 100%; */
+  /* width: 100%;  */
+  /* background-color: green; */
+  background-color: blue;
+  position: relative;
+}
+.floater {
+  /* opacity: .8; */
+  z-index: 20;
+  /* position: absolute; */
+  /* height: 50px; */
+  display: relative;
+  animation-name: example2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.floater2 {
+  opacity: 0.2;
+  z-index: 1;
+  position: absolute;
+  /* transform: rotateY(-25deg); */
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite; /* 1; */
+  animation-delay: 1s;
+  animation-direction: reverse;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+/* customizable snowflake styling */
+.snowflake {
+   color: #fff;
+   font-size: 1em;
+   font-family: Arial, sans-serif;
+   text-shadow: 0 0 5px #000;
+ }
+@-webkit-keyframes snowflakes-fall {
+  0% {
+    top: -10%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+@-webkit-keyframes snowflakes-shake {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(80px);
+    transform: translateX(80px);
+  }
+}
+@keyframes snowflakes-fall {
+  0% {
+    top: -10%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+@keyframes snowflakes-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(80px);
+  }
+}
+.snowflake {
+  position: fixed;
+  top: -20%;
+  z-index: 9999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  -webkit-animation-name: snowflakes-fall, snowflakes-shake;
+  -webkit-animation-duration: 10s, 3s;
+  -webkit-animation-timing-function: linear, ease-in-out;
+  -webkit-animation-iteration-count: infinite, infinite;
+  -webkit-animation-play-state: running, running;
+  animation-name: snowflakes-fall, snowflakes-shake;
+  animation-duration: 10s, 8s;
+  animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: infinite, infinite;
+  animation-play-state: running, running;
+}
+.snowflake:nth-of-type(0) {
+  left: 1%;
+  -webkit-animation-delay: 0s, 0s;
+  animation-delay: 0s, 0s;
+}
+.snowflake:nth-of-type(1) {
+  left: 10%;
+  -webkit-animation-delay: 1s, 1s;
+  animation-delay: 1s, 1s;
+} 
+
+.snowflake:nth-of-type(2) {
+  left: 20%;
+  -webkit-animation-delay: 6s, 0.5s;
+  animation-delay: 6s, 0.5s;
+}
+.snowflake:nth-of-type(3) {
+  left: 30%;
+  -webkit-animation-delay: 4s, 2s;
+  animation-delay: 4s, 2s;
+}
+.snowflake:nth-of-type(4) {
+  left: 40%;
+  -webkit-animation-delay: 2s, 2s;
+  animation-delay: 2s, 2s;
+}
+.snowflake:nth-of-type(5) {
+  left: 50%;
+  -webkit-animation-delay: 8s, 3s;
+  animation-delay: 8s, 3s;
+}
+.snowflake:nth-of-type(6) {
+  left: 60%;
+  -webkit-animation-delay: 6s, 2s;
+  animation-delay: 6s, 2s;
+}
+.snowflake:nth-of-type(7) {
+  left: 70%;
+  -webkit-animation-delay: 2.5s, 1s;
+  animation-delay: 2.5s, 1s;
+}
+.snowflake:nth-of-type(8) {
+  left: 80%;
+  -webkit-animation-delay: 1s, 0s;
+  animation-delay: 1s, 0s;
+}
+.snowflake:nth-of-type(9) {
+  left: 90%;
+  -webkit-animation-delay: 3s, 1.5s;
+  animation-delay: 3s, 1.5s;
+}
+/* .snowflake:nth-of-type(10) {
+  left: 25%;
+  -webkit-animation-delay: 2s, 0s;
+  animation-delay: 2s, 0s;
+}
+.snowflake:nth-of-type(11) {
+  left: 65%;
+  -webkit-animation-delay: 4s, 2.5s;
+  animation-delay: 4s, 2.5s;
+} */
+
+@keyframes Slideright {
+  to {
+    transform: translateX(180px);
+  }
+}
+@keyframes Slideleft {
+  to {
+    transform: translateX(-180px);
+  }
+}
+@keyframes Slideup {
+  to {
+    transform: translateY(-180px);
+  }
+}
+@keyframes Slidedown {
+  to {
+    transform: translateY(180px);
+  }
+}
+/* The animation code */
+@keyframes ChangeBackgroundColor {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+/* The animation code */
+@keyframes ChangeSize {
+  0% {
+    left: 10px;
+    top: 10px;
+  }
+  25% {
+    left: 0px;
+    height: 100px;
+  }
+  50% {
+    left: 0px;
+    height: 200px;
+  }
+  100% {
+    left: 0px;
+    height: 300px;
+  }
+}
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  /* 25%  {background-color:yellow; left:0px; top:0px;transform: rotateX(180deg);} */
+  25% {
+    background-color: yellow;
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 0px;
+    top: 0px;
+  }
+  /* 75%  {background-color:green; left:0px; top:0px;transform: rotateZ(90deg);} */
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    background-color: purple;
+    left: 0px;
+    top: 0px;
+  }
+  /* transform: rotateX(150deg); */
+}
+@keyframes example2 {
+  0% {
+    background-color: red;
+    marginleft: 0px;
+    top: 0px;
+  }
+  /* 25%  {background-color:yellow; left:0px; top:0px;transform: rotateX(180deg);} */
+  25% {
+    background-color: yellow;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 1500px;
+    top: 0px;
+  }
+  /* 75%  {background-color:green; left:0px; top:0px;transform: rotateZ(90deg);} */
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    background-color: purple;
+    left: 0px;
+    top: 0px;
+  }
+  /* transform: rotateX(150deg); */
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
