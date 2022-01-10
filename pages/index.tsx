@@ -122,138 +122,55 @@ const Home: NextPage = () => {
             />
          </div>
       </div>
-      {/* <div className={styles.floatercontainer}>
-         <p>hey</p>
-         <Image
-         className={styles.floater}
-         // className="top-100 bg-gradient-to-r from-neutral-900 to-cyan-900 inline"
-         src="/6dogs.svg"
-         alt="Picture of the author"
-         width={150}
-         height={250}
-         layout="fill"
-         objectFit="contain"
-         />
-      
-       <Image
-        className={styles.floater}
-        src="/amindi.svg"
-        alt="Picture of the author"
-        width={250}
-        height={150}
-         objectFit="contain"
-      />
+      {/* <div className="flex items-center flex-col scrollbar-hide overflow-y-scroll -rotate-90">
+         <div className="bg-yellow-800 text-white h-96 w-auto font-bold rounded-lg border shadow-lg p-12 opacity-95 rotate-90">
+            oh hello!
+         </div>
+         <div className="bg-neutral-900 text-white h-96 w-auto font-bold rounded-lg border shadow-lg p-12 opacity-95 rotate-90">
+            hi there
+         </div>
+         <div className="bg-orange-900 text-white h-96 w-auto font-bold rounded-lg border shadow-lg p-12 opacity-95 rotate-90">
+            hi there
+         </div>
       </div> */}
-      {/*
-      <Image
-        className={styles.floater}
-        src="/bigthief.svg"
-        alt="Picture of the author"
-        width={150}
-        height={150}
-      />
-      <Image
-        className={styles.floater}
-        src="/badbunny.svg"
-        alt="Picture of the author"
-        width={150}
-        height={150}
-      />
-      <Image
-        className={styles.floater}
-        src="/cannons.svg"
-        alt="Picture of the author"
-        width={150}
-        height={150}
-      />
-      <Image
-        className={styles.floater}
-        src="/fosterthepeople.svg"
-        alt="Picture of the author"
-        width={150}
-        height={150}
-      />
-      <Image
-        className={styles.floater}
-        src="/gorrilaz.svg"
-        alt="Picture of the author"
-        width={150}
-        height={150}
-      /> */}
-      {/* <Image
-        className={styles.floater}
-        src="/timetomelt.svg"
-        alt="Picture of the author"
-        width={150}
-        height={150}
-      />
-      <Image
-        className={styles.floater}
-        src="/illeniium.svg"
-        alt="Picture of the author"
-        width={150}
-        height={150}
-      />
-      <Image
-        className={styles.floater}
-        src="/jaduheart.svg"
-        alt="Picture of the author"
-        width={150}
-        height={150}
-      />
-      <Image
-        className={styles.floater}
-        src="/joeybadass.svg"
-        alt="Picture of the author"
-        width={150}
-        height={150}
-      />
-       <Image
-        className={styles.floater}
-        src="/liluzivert.svg"
-        alt="Picture of the author"
-        width={150}
-        height={150}
-      />
-      <Image
-        className={styles.floater}
-        src="/lucki.svg"
-        alt="Picture of the author"
-        width={150}
-        height={150}
-      />
-      <Image
-        className={styles.floater}
-        src="/mtjoy.svg"
-        alt="Picture of the author"
-        width={150}
-        height={150}
-      />
-      <Image
-        className={styles.floater}
-        src="/odesza.svg"
-        alt="Picture of the author"
-        width={150}
-        height={150}
-      /> */}
-      {/* <img className={styles.floater} src="/6dogs.svg"></img> */}
-      {/* <Image
-        className={styles.floater}
-        src="/6dogs.svg"
-        alt="Picture of the author"
-        width={150}
-        height={150}
-      />
-      <Image
-        className={styles.floater}
-        src="/6dogs.svg"
-        alt="Picture of the author"
-        width={100}
-        height={100}
-      /> */}
-      <p className='z-20'>Because the image has a z-index of -1, it will be placed behind the heading.</p>
-      {/* <Avatar/>
-      <Avatar/> */}
+      <div className="flex items-center justify-start h-screen flex-row overflow-x-scroll">
+         <div className="bg-red-900 text-white h-48 min-w-full font-bold rounded-lg border shadow-lg p-12">
+            oh hello!
+         </div>
+         <div className="bg-orange-900 text-white h-64 min-w-full font-bold rounded-lg border shadow-lg p-12 opacity-95">
+            hi there
+         </div>
+         <div className="bg-neutral-900 text-white h-80 min-w-full font-bold rounded-lg border shadow-lg p-12 opacity-95">
+            hi there
+         </div>
+         <div className="bg-yellow-800 text-white h-96 min-w-full font-bold rounded-lg border shadow-lg p-12 opacity-95">
+            hi there
+         </div>
+      </div>
+      {/* <div className="flex items-center justify-center h-screen overflow-y-scroll -rotate-90">   */}
+      {/* <div className="h-100 w-100 flex items-center overflow-y-scroll -rotate-90">  
+         <div className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10 w-40 h-80 rotate-90">
+            oh hey there :)
+         </div>
+         <div className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10 w-40 h-80 rotate-90">
+            oh hey there :)
+         </div>
+         <div className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10 w-40 h-80 rotate-90">
+            oh hey there :)
+         </div>
+         <div className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10 w-40 h-40 rotate-90">
+            oh hey there :)
+         </div>
+         <div className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10 w-40 h-40 rotate-90">
+            oh hey there :)
+         </div>
+      </div> */}
+
+      {/* <div className={styles.container1}>
+         <div className={styles.content1}>Content 1</div>
+         <div className={styles.content1}>Content 2</div>
+      </div> */}
+
    </div>
    </>
   )

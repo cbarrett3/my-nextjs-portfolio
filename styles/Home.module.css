@@ -117,11 +117,6 @@
 .floatercontainer {
   animation-name: floating;
   z-index: 10;
-  /* width: 100vw; */
-  /* position: relative; */
-  /* height: 100%; */
-  /* width: 100%;  */
-  /* background-color: green; */
   background-color: blue;
   position: relative;
 }
@@ -200,7 +195,7 @@
 .snowflake {
   position: fixed;
   top: -20%;
-  z-index: 9999;
+  z-index: -1;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -403,3 +398,30 @@
     transform: translate(0, -0px);
   }
 }
+
+
+
+
+.container1 {
+   width: 180px;
+   height: 600px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   transform: rotate(-90deg);
+   /* display: flex; */
+   /* align-items: center; */
+   /* justify-content: center; */
+   height: 90vh;
+   /* padding-top: 1000px; */
+   padding-left: 100px;
+ }
+ 
+ .content1 {
+   width: 340px;
+   height: 340px;
+   margin: 10px;
+
+   background-color: #a8a8df;
+   
+   transform: rotate(90deg);
+ }
