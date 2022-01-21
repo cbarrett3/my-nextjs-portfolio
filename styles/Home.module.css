@@ -233,13 +233,11 @@
   animation-iteration-count: infinite, infinite;
   animation-play-state: running, running;
 }
-.snowflake:nth-of-type(0) {
+/* .snowflake:nth-of-type(0) {
   left: 50%;
-  /* top: 90%; */
-  /* left: 10%; */
   -webkit-animation-delay: 0s, 0s;
   animation-delay: 0s, 0s;
-}
+} */
  .snowflake:nth-of-type(1) {
   left: 0%;
   -webkit-animation-delay: 0s, 6s;
@@ -286,11 +284,11 @@
   animation-delay: 10s, 1.5s;
 }
 .snowflake:nth-of-type(10) {
-  left: 25%;
+  left: 85%;
   -webkit-animation-delay: 2s, 0s;
   animation-delay: 18s, 0s;
 }
-.snowflake:nth-of-type(11) {
+/* .snowflake:nth-of-type(11) {
   left: 65%;
   -webkit-animation-delay: 20s, 7.5s;
   animation-delay: -2, 7.5s;
@@ -334,7 +332,7 @@
   left: 78%;
   -webkit-animation-delay: 4s, 2.5s;
   animation-delay: 4s, 2.5s;
-} 
+}  */
 /*
 */
 @keyframes Slideright {
@@ -490,7 +488,7 @@
  }
 
 .rotategithub {
-  animation: rotationright 30s infinite linear;
+  animation: rotationright 3s infinite linear;
 }
 .rotategithub:hover {
   opacity: .7;
@@ -499,7 +497,7 @@
 .rotatetwitter {
   animation-delay: 5s 5s;
   -webkit-animation-delay: 0s, 0s;
-  animation: rotationleft 20s infinite linear;
+  animation: rotationleft 10s infinite linear;
 }
 .rotatetwitter:hover {
   opacity: .7;
@@ -508,14 +506,14 @@
 .rotatemedium {
   animation-delay: 2s 2s;
   -webkit-animation-delay: 0s, 0s;
-  animation: rotationright 20s infinite linear;
+  animation: rotationright 10s infinite linear;
 }
 .rotatemedium:hover {
   opacity: .7;
   cursor: pointer;
 }
 .rotatediscord{
-  animation: rotationleft 20s infinite linear;
+  animation: rotationleft 12s infinite linear;
 }
 .rotatediscord:hover {
   opacity: .7;
