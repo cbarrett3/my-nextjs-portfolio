@@ -269,7 +269,7 @@ const Home: NextPage = () => {
           <div className="bg-neutral-900 bg-opacity-95 border-yellow-600 border-8 rounded-md z-30 ml-12 mt-2 pt-4 pl-8 pr-8 w-96 h-96 max-h-96 mr-80">
             <h1 className="text-5xl text-white">Welcome! / ¡Bienvenido/a!</h1>
             <h1 className="text-3xl text-yellow-600 mt-4 font-bold">
-              I'm Connor
+              I am Connor
             </h1>
             <h1 className="text-xl mt-3 text-neutral-400 font-normal">
               Welcome to my virtual home. 🍻
