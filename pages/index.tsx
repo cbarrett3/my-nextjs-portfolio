@@ -17,11 +17,10 @@ const Home: NextPage = () => {
         <div className={styles.snowflakes} aria-hidden="true">
           <div className={styles.snowflake}>
             <iframe
-              src="https://open.spotify.com/embed/track/3DNKr4PKvm6weTbNmFSMbn?utm_source=generator&theme=0"
+              src="https://open.spotify.com/embed/track/4neVGgEA80bTNVAOKNQEL8?utm_source=generator"
               width="80%"
               height="80"
               frameBorder="0"
-              allowFullScreen={false}
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
           </div>
@@ -36,25 +35,7 @@ const Home: NextPage = () => {
             >
             </Image>
          </div> */}
-          {/* <div className={styles.snowflake}>
-            <Image
-               className="bg-gradient-to-r from-yellow-100 to-neutral-900 opacity-80 border-8 rounded-xl"
-               src="/bigthief.svg"
-               alt="Picture of the author"
-               width={100}
-               height={100}
-                  objectFit="contain"
-            />
-         </div> */}
           <div className={styles.snowflake}>
-            {/* <Image
-               className="bg-gradient-to-r from-pink-900 to-pink-300 opacity-80 border-8 rounded-xl"
-               src="/cannons.svg"
-               alt="Picture of the author"
-               width={100}
-               height={100}
-                  objectFit="contain"
-            /> */}
             <iframe
               src="https://open.spotify.com/embed/track/4o0LyB69tylqDG6eTGhmig?utm_source=generator"
               width="80%"
@@ -65,14 +46,6 @@ const Home: NextPage = () => {
             ></iframe>
           </div>
           <div className={styles.snowflake}>
-            {/* <Image
-               className="bg-gradient-to-r from-neutral-300 to-yellow-500 opacity-80 border-8 rounded-xl"
-               src="/fosterthepeople.svg"
-               alt="Picture of the author"
-               width={100}
-               height={100}
-                  objectFit="contain"
-            /> */}
             <iframe
               src="https://open.spotify.com/embed/track/4OzJ9lvk0O4gATo1F3OBPo?utm_source=generator"
               width="80%"
@@ -82,16 +55,8 @@ const Home: NextPage = () => {
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
           </div>
-          <div className={styles.snowflake}>
+        <div className={styles.snowflake}>
             <a href="https://www.facebook.com">
-              {/* <Image
-               className="bg-gradient-to-r from-green-900 to-orange-700 opacity-80 border-8 rounded-xl"
-               src="/gorrilaz.svg"
-               alt="Picture of the author"
-               width={100}
-               height={100}
-               objectFit="contain"
-            /> */}
               <iframe
                 src="https://open.spotify.com/embed/track/1hdQvPXxQo8Uxhf8N6oKIM?utm_source=generator"
                 width="80%"
@@ -101,15 +66,7 @@ const Home: NextPage = () => {
               ></iframe>
             </a>
           </div>
-          <div className={styles.snowflake}>
-            {/* <Image
-               className="bg-gradient-to-r from-orange-800 to-neutral-900 opacity-80 border-8 rounded-xl"
-               src="/illeniium.svg"
-               alt="Picture of the author"
-               width={100}
-               height={100}
-                  objectFit="contain"
-            /> */}
+      <div className={styles.snowflake}>
             <iframe
               src="https://open.spotify.com/embed/track/4fDcbHuBbX9qlNSQWnkrHw?utm_source=generator"
               width="80%"
@@ -118,15 +75,7 @@ const Home: NextPage = () => {
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
           </div>
-          <div className={styles.snowflake}>
-            {/* <Image
-               className="bg-gradient-to-r from-neutral-900 to-neutral-100 opacity-80 border-8 rounded-xl"
-               src="/jaduheart.svg"
-               alt="Picture of the author"
-               width={100}
-               height={100}
-                  objectFit="contain"
-            /> */}
+      <div className={styles.snowflake}>
             <iframe
               src="https://open.spotify.com/embed/track/3ET4Q76Qc32q6ArPZZbe6v?utm_source=generator"
               width="80%"
@@ -136,14 +85,6 @@ const Home: NextPage = () => {
             ></iframe>
           </div>
           <div className={styles.snowflake}>
-            {/* <Image
-               className="bg-gradient-to-r from-purple-900 to-blue-600 opacity-80 border-8 rounded-xl"
-               src="/liluzivert.svg"
-               alt="Picture of the author"
-               width={100}
-               height={100}
-                  objectFit="contain"
-            /> */}
             <iframe
               src="https://open.spotify.com/embed/track/5AaqYl3nQu2ktZbXOIRGXp?utm_source=generator"
               width="80%"
@@ -152,7 +93,7 @@ const Home: NextPage = () => {
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>{" "}
           </div>
-          <div className={styles.snowflake}>
+         <div className={styles.snowflake}>
             <iframe
               src="https://open.spotify.com/embed/track/5KHfdb9AJ6Zs8OjcPl5HgR?utm_source=generator"
               width="80%"
@@ -162,7 +103,7 @@ const Home: NextPage = () => {
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
           </div>
-          <div className={styles.snowflake}>
+                     <div className={styles.snowflake}>
             <iframe
               src="https://open.spotify.com/embed/track/34Un8jfW0XIpRkUyUiJeWK?utm_source=generator"
               width="80%"
@@ -171,7 +112,7 @@ const Home: NextPage = () => {
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
           </div>
-          <div className={styles.snowflake}>
+      <div className={styles.snowflake}>
             <iframe
               src="https://open.spotify.com/embed/track/2NeSirLM2VHQW4upn0nMfB?utm_source=generator"
               width="80%"
@@ -189,7 +130,7 @@ const Home: NextPage = () => {
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
           </div>
-          <div className={styles.snowflake}>
+     {/*      <div className={styles.snowflake}>
             <iframe
               src="https://open.spotify.com/embed/track/3l51Mu8p6he5ay2yhW3DPa?utm_source=generator"
               width="80%"
@@ -198,7 +139,7 @@ const Home: NextPage = () => {
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
           </div>
-          <div className={styles.snowflake}>
+              <div className={styles.snowflake}>
             <iframe
               src="https://open.spotify.com/embed/track/7oHsS6nhOszWh5yUaHVW3d?utm_source=generator"
               width="80%"
@@ -250,18 +191,7 @@ const Home: NextPage = () => {
               height="80"
               frameBorder="0"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            ></iframe>
-          </div>
-          {/* <div className="flex items-center flex-col scrollbar-hide overflow-y-scroll -rotate-90">
-            <div className="bg-yellow-800 text-white h-96 w-auto font-bold rounded-lg border shadow-lg p-12 opacity-95 rotate-90">
-              oh hello!asdfasdfasdf
-            </div>
-            <div className="bg-neutral-900 text-white h-96 w-auto font-bold rounded-lg border shadow-lg p-12 opacity-95 rotate-90">
-              hi there
-            </div>
-            <div className="bg-orange-900 text-white h-96 w-auto font-bold rounded-lg border shadow-lg p-12 opacity-95 rotate-90">
-              hi there
-            </div>
+            ></iframe> 
           </div> */}
         </div>
         <div className="flex flex-row h-screen overflow-x-scroll">
