@@ -425,7 +425,7 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className="bg-gradient-to-r from-green-500 to-yellow-500 border-neutral-900 rounded-md border-8 z-30 mt-24 pt-4 pl-8 pr-8 h-72 max-h-96 min-w-fit">
+          <div className="bg-gradient-to-r from-green-500 to-yellow-500 border-neutral-900 rounded-md border-8 z-30 mt-24 pt-4 pl-8 pr-8 h-fit max-h-96 min-w-fit">
             <h1 className="text-4xl text-black font-bold">Where</h1>
             <h1 className="text-xl mt-2 text-black font-light">
               Experience building solutions for Fortune 500 companies across
@@ -455,7 +455,7 @@ const Home: NextPage = () => {
                 />
               </div>
             </div>
-            <div className="text-lg text-gray-900 mt-2 font-semibold flex items-center">
+            <div className="text-lg text-gray-900 mt-2 mb-4 font-semibold flex items-center">
               Advanced Analytics Intern
               <div className="ml-8 flex items-center hover:scale-125">
                 <Image
