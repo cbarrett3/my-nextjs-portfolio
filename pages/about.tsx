@@ -15,3 +15,5 @@ const About: NextPage = () => {
 function Avatar() {
    return <Image src="/vercel.svg" alt="me" width="64" height="64" />
 }
+
+export default About;
