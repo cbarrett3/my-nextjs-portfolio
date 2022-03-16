@@ -6,6 +6,7 @@ import type {
 } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -15,7 +16,7 @@ const Home: NextPage = () => {
         {/* <div className="h-screen max-h-screen overflow-y-hidden w-screen overflow-x-auto scrollbar-hide z-0 relative"> */}
 
         <div className={styles.snowflakes} aria-hidden="true">
-          <div className={styles.snowflake}>
+          {/* <div className={styles.snowflake}>
             <iframe
               src="https://open.spotify.com/embed/track/4neVGgEA80bTNVAOKNQEL8?utm_source=generator"
               width="80%"
@@ -24,17 +25,6 @@ const Home: NextPage = () => {
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
           </div>
-          {/* <div className={styles.snowflake}>
-            <Image
-               className="bg-gradient-to-r from-neutral-900 to-neutral-900 opacity-80 border-8 rounded-xl"
-               src="/badbunny.svg"
-               alt="Picture of the author"
-               width={100}
-               height={100}
-                  objectFit="contain"
-            >
-            </Image>
-         </div> */}
           <div className={styles.snowflake}>
             <iframe
               src="https://open.spotify.com/embed/track/4o0LyB69tylqDG6eTGhmig?utm_source=generator"
@@ -74,8 +64,8 @@ const Home: NextPage = () => {
               frameBorder="0"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
-          </div>
-      <div className={styles.snowflake}>
+          </div> */}
+          {/* <div className={styles.snowflake}>
             <iframe
               src="https://open.spotify.com/embed/track/3ET4Q76Qc32q6ArPZZbe6v?utm_source=generator"
               width="80%"
@@ -83,17 +73,18 @@ const Home: NextPage = () => {
               frameBorder="0"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
-          </div>
-          <div className={styles.snowflake}>
+          </div>  */}
+          {/* <div className={styles.snowflake}>
             <iframe
               src="https://open.spotify.com/embed/track/5AaqYl3nQu2ktZbXOIRGXp?utm_source=generator"
-              width="80%"
+              width="180%"
               height="80"
               frameBorder="0"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>{" "}
-          </div>
-         <div className={styles.snowflake}>
+          </div> */}
+          {/* yeat */}
+          {/* <div className={styles.snowflake}>
             <iframe
               src="https://open.spotify.com/embed/track/5KHfdb9AJ6Zs8OjcPl5HgR?utm_source=generator"
               width="80%"
@@ -102,8 +93,9 @@ const Home: NextPage = () => {
               allowFullScreen={false}
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
-          </div>
-                     <div className={styles.snowflake}>
+          </div> */}
+          {/* skeler */}
+          {/* <div className={styles.snowflake}>
             <iframe
               src="https://open.spotify.com/embed/track/34Un8jfW0XIpRkUyUiJeWK?utm_source=generator"
               width="80%"
@@ -111,17 +103,28 @@ const Home: NextPage = () => {
               frameBorder="0"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
-          </div>
-      <div className={styles.snowflake}>
-            <iframe
+          </div> */}
+          {/* peggy gou */}
+          <div
+            className={styles.snowflake}
+            style={{ marginLeft: "350px", opacity: ".5" }}
+          >
+            {/* <iframe
               src="https://open.spotify.com/embed/track/2NeSirLM2VHQW4upn0nMfB?utm_source=generator"
-              width="80%"
+              width="90%"
+              height="80"
+              frameBorder="10"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe> */}
+            <iframe
+              src="https://open.spotify.com/embed/track/7M7AwtGvWdMYudqx5Iuh1m?utm_source=generator"
+              width="90%"
               height="80"
               frameBorder="0"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
           </div>
-          <div className={styles.snowflake}>
+          {/* <div className={styles.snowflake}>
             <iframe
               src="https://open.spotify.com/embed/track/7AsGB0lHuuPf07kiQURb8M?utm_source=generator"
               width="80%"
@@ -129,69 +132,6 @@ const Home: NextPage = () => {
               frameBorder="0"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
-          </div>
-     {/*      <div className={styles.snowflake}>
-            <iframe
-              src="https://open.spotify.com/embed/track/3l51Mu8p6he5ay2yhW3DPa?utm_source=generator"
-              width="80%"
-              height="80"
-              frameBorder="0"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            ></iframe>
-          </div>
-              <div className={styles.snowflake}>
-            <iframe
-              src="https://open.spotify.com/embed/track/7oHsS6nhOszWh5yUaHVW3d?utm_source=generator"
-              width="80%"
-              height="80"
-              frameBorder="0"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            ></iframe>
-          </div>
-          <div className={styles.snowflake}>
-            <iframe
-              src="https://open.spotify.com/embed/track/56Qdvab5ordX97OCvgY3ie?utm_source=generator&theme=0"
-              width="80%"
-              height="80"
-              frameBorder="0"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            ></iframe>
-          </div>
-          <div className={styles.snowflake}>
-            <iframe
-              src="https://open.spotify.com/embed/track/2tPzQueGEjxjmBvJrYe02u?utm_source=generator&theme=0"
-              width="80%"
-              height="80"
-              frameBorder="0"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            ></iframe>
-          </div>
-          <div className={styles.snowflake}>
-            <iframe
-              src="https://open.spotify.com/embed/track/707qqokrSYnzJO5FoGIvFL?utm_source=generator"
-              width="80%"
-              height="80"
-              frameBorder="0"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            ></iframe>
-          </div>
-          <div className={styles.snowflake}>
-            <iframe
-              src="https://open.spotify.com/embed/track/5gZYpjakt37G3c58FKcQwJ?utm_source=generator"
-              width="80%"
-              height="80"
-              frameBorder="0"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            ></iframe>
-          </div>
-          <div className={styles.snowflake}>
-            <iframe
-              src="https://open.spotify.com/embed/track/0k6LRpP1C0XH7kOBEoiKtH?utm_source=generator"
-              width="80%"
-              height="80"
-              frameBorder="0"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            ></iframe> 
           </div> */}
         </div>
         <div className="flex flex-row h-screen overflow-x-scroll">
@@ -226,7 +166,7 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="bg-yellow-700 border-yellow-900 border-8 rounded-md z-30 mt-40 mr-8 pt-4 pl-8 pr-8 pb-2 h-fit min-w-max">
-            <h1 className="text-4xl text-black font-bold">By Day</h1>
+            <h1 className="text-4xl text-black font-bold">My Things</h1>
             <h1 className="text-xl mt-3 text-black font-light">
               Technical Expertise
             </h1>
@@ -327,7 +267,7 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="bg-neutral-900 border-indigo-700 border-8 rounded-md z-30 mt-4 mr-8 pt-4 pl-8 pr-8 pb-2 h-fit min-w-max">
-            <h1 className="text-4xl text-white font-bold">By Night</h1>
+            <h1 className="text-4xl text-white font-bold">My Side Things</h1>
             <h1 className="text-xl mt-3 text-gray-200 font-light">
               Recent Interests
             </h1>
@@ -416,8 +356,8 @@ const Home: NextPage = () => {
               </div>
               <div className="ml-2 flex items-center hover:scale-150">
                 <Image
-                  src="/jamstack.jpg"
-                  alt="jamstack-book"
+                  src="/historyofworld.jpg"
+                  alt="history-of-world-book"
                   width={30}
                   height={30}
                   objectFit="contain"
@@ -491,7 +431,7 @@ const Home: NextPage = () => {
             {/* <h1 className="text-xl mt-3 text-gray-500 font-normal">
             </h1> */}
             <div className="grid grid-cols-1 mt-8">
-              <div className="hover:scale-110 ml-12">
+              {/* <div className="hover:scale-110 ml-12">
                 <Image
                   className={styles.rotatetwitter}
                   src="/twit.png"
@@ -500,18 +440,22 @@ const Home: NextPage = () => {
                   height={50}
                   objectFit="contain"
                 />
-              </div>
+              </div> */}
               <div className="hover:scale-90">
-                <Image
-                  className={styles.rotatemedium}
-                  src="/medium.png"
-                  alt="Medium Icon"
-                  width={50}
-                  height={50}
-                  objectFit="contain"
-                />
+                <Link href="https://connorleon97.medium.com/">
+                  <a>
+                    <Image
+                      className={styles.rotatemedium}
+                      src="/medium.png"
+                      alt="Medium Icon"
+                      width={50}
+                      height={50}
+                      objectFit="contain"
+                    />
+                  </a>
+                </Link>
               </div>
-              <div className="hover:scale-110 ml-12">
+              {/* <div className="hover:scale-110 ml-12">
                 <Image
                   className={styles.rotatediscord}
                   src="/discord.png"
@@ -520,8 +464,24 @@ const Home: NextPage = () => {
                   height={75}
                   objectFit="contain"
                 />
+              </div> */}
+              <div className="hover:scale-110 ml-16">
+                <Link href="https://github.com/cbarrett3">
+                  <a>
+                    <Image
+                      className={styles.rotategithub}
+                      src="/git.png"
+                      alt="Github Icon"
+                      width={50}
+                      height={50}
+                      objectFit="contain"
+                    />
+                  </a>
+                </Link>
               </div>
               <div className="hover:scale-90">
+              <Link href="https://www.linkedin.com/in/connor-barrett-617418100/">
+                  <a>
                 <Image
                   className={styles.rotatelinkedin}
                   src="/linkedin.png"
@@ -530,18 +490,10 @@ const Home: NextPage = () => {
                   height={55}
                   objectFit="contain"
                 />
+                                  </a>
+                </Link>
               </div>
-              <div className="hover:scale-110 ml-16">
-                <Image
-                  className={styles.rotategithub}
-                  src="/git.png"
-                  alt="Github Icon"
-                  width={50}
-                  height={50}
-                  objectFit="contain"
-                />
-              </div>
-              <div className="hover:scale-90">
+              {/* <div className="hover:scale-90">
                 <Image
                   className={styles.rotatetwitch}
                   src="/twiz.svg"
@@ -550,7 +502,7 @@ const Home: NextPage = () => {
                   height={50}
                   // objectFit="contain"
                 />
-              </div>
+              </div> */}
               {/* <div>linkedin</div>
               <div>twitch</div> */}
             </div>
