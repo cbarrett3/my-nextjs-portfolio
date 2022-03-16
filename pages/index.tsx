@@ -107,7 +107,7 @@ const Home: NextPage = () => {
           {/* peggy gou */}
           <div
             className={styles.snowflake}
-            style={{ marginLeft: "350px", opacity: ".5" }}
+            style={{ opacity: ".5" }}
           >
             {/* <iframe
               src="https://open.spotify.com/embed/track/2NeSirLM2VHQW4upn0nMfB?utm_source=generator"
