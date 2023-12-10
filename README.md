@@ -1,6 +1,6 @@
 # [Portfolio built w/ Next.js]([https://www.connorbarrett.dev](https://my-nextjs-portfolio-eight.vercel.app/))
 
-Next.js personal portfolio site for an overview of my interests and experience, hosted by vercel.
+Lightweight portfolio site for an overview of my interests and experience, built with nextjs and hosted by vercel.
 
 ### run locally
 
